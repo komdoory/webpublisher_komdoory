@@ -4,7 +4,7 @@
 
    ---
 
-   333
+   
 
 2. new repository 생성
 
@@ -15,6 +15,8 @@
    (결과) $ cat README.md : (캣아이) 저장되었나 확인함
 
 5. push/pull 이전에 계정을 연결 (아래 택배순서)
+
+   - config 설정 :보낼때
 
    1. 자료를 올리는 사람의 이름과 이메일 주소
 
@@ -35,6 +37,16 @@
 
 6. github로 push (보내겠다) 처리하여 보내기
 
+   <수시체크 git status>
+
+   git add (파일 폴더 모두의 수정, 삭제 애드 모두)
+
+   git commit -m "설명"
+
+   git push
+
+   끝
+
 7. github의 자료를 pull (가져오기) 처리하여 가져오기
 
 ---
@@ -46,11 +58,39 @@
 
 1. 우체국에 간다
 
-2. 송장 작성 (내용설명: commit)
+2. 송장 작성 (내용설명: commit)=고유번호화
 
-   :$ git commit -m (썸머리의 m) "생성을위한첫파일"(예시) : 내용설명
+   :$ git commit -m (썸머리의 m) "생성을위한첫파일"(예시-수정불가) : 내용설명
 
-3. 물건 보내기 : $ git push -> git 로그인창 뜸
+3. 물건 보내기 : $ git push -> git 로그인창 뜸 (또는 자동저장된 것으로 자동 웹GITHUB저장)
 
    이제 동기화 되었음
+
+---
+
+내용 변경후 저장하고
+
+다시 git bash에서 
+
+$ git status
+
+- modified (red)
+- $ git add readme.md
+
+
+
+---
+
+한번 저장하면 변하지 않는 것 (컴퓨터 바뀌지 않는 이상)
+
+1. github가입
+
+2. 저장소 생성 Repositories
+
+3. git config --global user.name "사용자이름"
+
+   got config --global user.email "사용자이메일"
+
+4. git push 설정시 id/pw
+   * 컴퓨터에서 계정 로그아웃: 제어판 =사용자계정=자격증명관리자=윈도우자격증명/ 아래에 git 계정 삭제
 
