@@ -1,10 +1,8 @@
 # 웹퍼블리셔과정 20200727-20201218
 
+[마크다운내용](./A_ASSIST/A_MARKDOWN.MD)
+
 1. git 계정 생성하기
-
-   ---
-
-   
 
 2. new repository 생성
 
@@ -92,5 +90,6 @@ $ git status
    got config --global user.email "사용자이메일"
 
 4. git push 설정시 id/pw
+   
    * 컴퓨터에서 계정 로그아웃: 제어판 =사용자계정=자격증명관리자=윈도우자격증명/ 아래에 git 계정 삭제
 
